@@ -31,7 +31,7 @@
         },
         "desc": {
             "en": "This Adapter handles the Area, Floor and Room enum and add it to the devices",
-            "de": "This Adapter handles the Area, Floor and Room enum and add it to the devices",
+            "de": "Dieser Adapter verwaltet die Area, Stockwerk und Räume und fügt dies auch dem Geräten zu",
             "ru": "This Adapter handles the Area, Floor and Room enum and add it to the devices",
             "pt": "This Adapter handles the Area, Floor and Room enum and add it to the devices",
             "nl": "This Adapter handles the Area, Floor and Room enum and add it to the devices",
@@ -57,11 +57,21 @@
         "connectionType": "local",
         "dataSource": "poll",
         "materialize": true,
+        "localLink": "%web_protocol%://%ip%:%web_port%/area-floor-room-handler/index.html",
+        "messagebox": true,
+        "subscribe": "messagebox",
         "dependencies": [
             {
                 "js-controller": ">=2.0.0"
             }
-        ]
+        ],
+        "welcomeScreen": {
+            "link": "area-floor-room-handler/index.html",
+            "name": "area-floor-room-handler",
+            "img": "area-floor-room-handler/img/device-availability.png",
+            "color": "#ffe9c8",
+            "order": 0
+        }
     },
     "native": {
         "option1": true,

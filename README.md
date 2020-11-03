@@ -1,3 +1,4 @@
+### __WORK IN PROGRESS__
 ![Logo](admin/area-floor-room-handler.png)
 # ioBroker.area-floor-room-handler
 
