@@ -1,4 +1,4 @@
-### __WORK IN PROGRESS__
+### 0.0.2-0 (2020-11-03)
 ![Logo](admin/area-floor-room-handler.png)
 # ioBroker.area-floor-room-handler
 

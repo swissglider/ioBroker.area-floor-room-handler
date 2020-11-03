@@ -1,6 +1,6 @@
 {
   "name": "iobroker.area-floor-room-handler",
-  "version": "0.0.1",
+  "version": "0.0.2-0",
   "description": "This Adapter handles the Area, Floor and Room enum and add it to the devices",
   "author": {
     "name": "swissglider",
